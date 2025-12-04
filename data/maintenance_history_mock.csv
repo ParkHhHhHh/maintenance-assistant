@@ -1,0 +1,5 @@
+vehicle_id,last_maintenance_days_ago,issue_code
+A001,20,ENGINE_OIL
+A002,35,BRAKE_PAD
+A003,10,TIRE_WEAR
+A004,40,ENGINE_OIL
