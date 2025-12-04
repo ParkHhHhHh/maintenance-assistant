@@ -1,0 +1,5 @@
+vehicle_id,mileage,engine_hours,days_until_maintenance
+A001,12000,340,15
+A002,8000,270,25
+A003,15000,410,5
+A004,6000,200,30
