@@ -1,51 +1,30 @@
 # Military Vehicle Maintenance Assistant (Mock Data)
 
-This project is a re-creation of the data processing workflow I performed during my military service as the **primary driver of the battalion commander’s vehicle (1st Vehicle Driver)**.  
-Due to confidentiality, all data has been replaced with mock datasets, but the **logic, structure, and engineering approach** reflect real operations.
+This system is a re-creation of the maintenance and operational workflow I experienced during my military service as the **1st Vehicle Driver (battalion commander’s vehicle)**.  
+All datasets are simulated to protect confidentiality, but the engineering logic reflects real procedures: tracking vehicle usage, analyzing fault history, and predicting maintenance needs.
 
 ---
 
-## 🔍 Problem Statement
-Military vehicles require continuous inspection and maintenance under harsh conditions.  
-However, tracking maintenance history and predicting failures manually is inefficient.
+## 🚀 Project Overview
+Military vehicles operate under demanding conditions and require frequent inspections.  
+This project transforms the manual workflow into a **data-driven maintenance prediction system**.
 
-This system:
-- organizes maintenance logs  
-- analyzes fault patterns  
-- predicts next maintenance cycle  
-- provides a clean status dashboard  
+### ✔ What the System Does
+- Cleans and structures maintenance logs  
+- Extracts operational features  
+- Trains an ML model to predict `days_until_next_maintenance`
+- Serves predictions through a FastAPI backend  
+- Provides a visualization notebook for insights  
 
 ---
 
 ## 🛠 Tech Stack
-- Python, Pandas, Scikit-Learn  
-- FastAPI  
-- Matplotlib/Seaborn  
-- Docker  
+- **Python** (pandas, scikit-learn, joblib)
+- **FastAPI**
+- **Matplotlib**
+- **Jupyter Notebook**
+- **Modular Architecture**
 
 ---
 
-## 📊 Features
-- Data preprocessing pipeline  
-- Maintenance prediction model  
-- REST API for vehicle status queries  
-- Dashboard for visual insights  
-- Modular architecture  
-
----
-
-## 🚀 Results
-- Clear improvement in maintenance scheduling visibility  
-- Automated reporting reduced manual workload (simulated)  
-- Real-world military workflow successfully abstracted into code  
-
----
-
-## 📌 Future Work
-- Add anomaly detection  
-- Build frontend UI  
-- Expand dataset  
-
----
-
-## ▶ Run Instructions
+## 📊 System Architecture
