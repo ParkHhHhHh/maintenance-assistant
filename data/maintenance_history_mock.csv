@@ -1,5 +1,6 @@
-vehicle_id,last_maintenance_days_ago,issue_code
-A001,20,ENGINE_OIL
-A002,35,BRAKE_PAD
-A003,10,TIRE_WEAR
-A004,40,ENGINE_OIL
+vehicle_id,last_maintenance_days_ago,issue_code,severity
+A001,20,ENGINE_OIL,2
+A002,35,BRAKE_PAD,1
+A003,10,TIRE_WEAR,3
+A004,40,ENGINE_OIL,1
+A005,15,BATTERY,2
