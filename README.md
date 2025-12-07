@@ -44,38 +44,13 @@ Although the data is simulated, the engineering reasoning reflects real mission 
 ## 📂 Project Structure
 
 maintenance-assistant/
-
 ├── data/
-
-│   ├── vehicle_logs_mock.csv
-
-│   └── maintenance_history_mock.csv
-
 ├── src/
-
-│   ├── preprocessing.py
-
-│   ├── feature_engineering.py
-
-│   ├── train_model.py
-
-│   ├── predict.py
-
 ├── api/
-
-│   └── main.py
-
 ├── dashboard/
-
-│   └── dashboard.ipynb
-
 ├── tests/
-
-│   └── test_prediction.py
-
-├── requirements.txt
-
-└── README.md
+├── README.md
+└── requirements.txt
 
 ---
 
