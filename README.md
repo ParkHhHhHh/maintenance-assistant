@@ -43,6 +43,7 @@ Although the data is simulated, the engineering reasoning reflects real mission 
 
 ## 📂 Project Structure
 
+```bash
 maintenance-assistant/
 ├── data/
 ├── src/
@@ -51,6 +52,7 @@ maintenance-assistant/
 ├── tests/
 ├── README.md
 └── requirements.txt
+```
 
 ---
 
@@ -80,7 +82,7 @@ Key engineered features:
 ### **`usage_ratio`**
 Represents operational load:
 
-usage_ratio = mileage / (engine_hour + 1)
+usage_ratio = mileage / (engine_hours + 1)
 
 Higher ratios often indicate higher stress per engine-hour.
 
@@ -89,7 +91,7 @@ Higher ratios often indicate higher stress per engine-hour.
 ### **`temp_stress`**
 Binary encoding of vehicles exposed to high-temperature operation (> 32°C):
 
-temp_strees = 1 if temperature > 32 else 0
+temp_stress = 1 if temperature > 32 else 0
 
 High heat accelerates engine and fluid degradation.
 
@@ -125,7 +127,7 @@ The API exposes real-time predictions based on vehicle status inputs:
 
 ### ▶ Start server
 
-uvicorn api.main:app -reload
+uvicorn api.main:app --reload
 
 ### ▶ Endpoints
 - `GET /` – health check  
