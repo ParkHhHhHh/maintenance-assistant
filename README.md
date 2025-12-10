@@ -43,7 +43,7 @@ Although the data is simulated, the engineering reasoning reflects real mission 
 
 ## 📂 Project Structure
 
-```bash
+```powershell
 maintenance-assistant/
 ├── data/
 ├── src/
